@@ -1,0 +1,176 @@
+import {Navigation} from 'react-native-navigation';
+
+import SignIn from './SignIn';
+import SignInCode from './SignInCode';
+import Daftar from './Daftar';
+import DaftarCode from './DaftarCode';
+import LupaSecurityCode from './LupaSecurityCode';
+import DaftarBerhasil from './DaftarBerhasil';
+import MasukkanCode from './MasukkanCode';
+import Home from './Home';
+import HomeDetail from './HomeDetail';
+import WalletPoint from './WalletPoint';
+import WalletDeal from './WalletDeal';
+import History from './History';
+import Notification from './Notification';
+import TopUp from './TopUp';
+import SendMoney from './SendMoney';
+import AntarLifesWallet from './AntarLifesWallet';
+import TransferBank from './TransferBank';
+import KirimKe from './KirimKe';
+import KonfirmasiTransfer from './KonfirmasiTransfer';
+import TransferSukses from './TransferSukses';
+import TransferGagal from './TransferGagal';
+import Akun from './Akun';
+import EditProfil from './EditProfil';
+import UbahNomorHandphone from './UbahNomorHandphone';
+import VerifikasiEmail from './VerifikasiEmail';
+import UbahAlamatEmail from './UbahAlamatEmail';
+import KodePromo from './KodePromo';
+import Upgrade from './Upgrade';
+import DataDiri from './DataDiri';
+import Hubungi from './Hubungi';
+import SemuaProduk from './SemuaProduk';
+import PLN from './PLN';
+import KonfirmasiPLN from './KonfirmasiPLN';
+import KonfirmasiPembayaran from './KonfirmasiPembayaran';
+import Overview from './Overview';
+import Penarikan from './Penarikan';
+import TarikTunai from './TarikTunai';
+import QRMaker from './QRMaker';
+import PembayaranTagihan from './PembayaranTagihan';
+import UploadFoto from './UploadFoto';
+import Pulsa from './Pulsa';
+import KonfirmasiPulsa from './KonfirmasiPulsa';
+import Telkom from './Telkom';
+import KonfirmasiTelkom from './KonfirmasiTelkom';
+import PDAM from './PDAM';
+import KonfirmasiPDAM from './KonfirmasiPDAM';
+import BPJS from './BPJS';
+import KonfirmasiBPJS from './KonfirmasiBPJS';
+import MultiFinance from './MultiFinance';
+import KonfirmasiMultiFinance from './KonfirmasiMultiFinance';
+import TVKabel from './TVKabel';
+import KonfirmasiTVKabel from './KonfirmasiTVKabel';
+import Game from './Game';
+import PickerList from './PickerList';
+import TransaksiSukses from './TransaksiSukses';
+import TransaksiGagal from './TransaksiGagal';
+import SecurityCodeBaru from './SecurityCodeBaru';
+import SyaratKetentuan from './SyaratKetentuan';
+import ScanQR from './ScanQR';
+import SecurityCodeAnda from './SecurityCodeAnda';
+import BuatSecurityCode from './BuatSecurityCode';
+import UlangSecurityCode from './UlangSecurityCode';
+import Bank from './Bank';
+import Saran from './Saran';
+import PromoDetail from './PromoDetail';
+import PembayaranMasuk from './PembayaranMasuk';
+import PembayaranSukses from './PembayaranSukses';
+import TarikTunaiDetail from './TarikTunaiDetail';
+import LihatTarikTunai from './LihatTarikTunai';
+import TerimaTarikTunai from './TerimaTarikTunai';
+import KonfirmasiTarikTunai from './KonfirmasiTarikTunai';
+import TarikTunaiSukses from './TarikTunaiSukses';
+import CairkanSaldo from './CairkanSaldo';
+import KonfirmasiCairkanSaldo from './KonfirmasiCairkanSaldo';
+import Tentang from './Tentang';
+import Kebijakan from './Kebijakan';
+import Informasi from './Informasi';
+import FAQ from './FAQ';
+import MediaPicker from './MediaPicker';
+import DatePicker from './DatePicker';
+import MerchantDetail from './MerchantDetail';
+import Camera from './Camera';
+import QRCode from './QRCode';
+import HistoryDetail from './HistoryDetail';
+import HistoryPointDetail from './HistoryPointDetail';
+
+
+export function registerScreens() {
+	Navigation.registerComponent('SignIn', () => SignIn)
+	Navigation.registerComponent('SignInCode', () => SignInCode)
+	Navigation.registerComponent('Daftar', () => Daftar)
+	Navigation.registerComponent('DaftarCode', () => DaftarCode)
+	Navigation.registerComponent('LupaSecurityCode', () => LupaSecurityCode)
+	Navigation.registerComponent('DaftarBerhasil', () => DaftarBerhasil)
+	Navigation.registerComponent('MasukkanCode', () => MasukkanCode)
+	Navigation.registerComponent('Home', () => Home)
+	Navigation.registerComponent('HomeDetail', () => HomeDetail)
+	Navigation.registerComponent('WalletPoint', () => WalletPoint)
+	Navigation.registerComponent('WalletDeal', () => WalletDeal)
+	Navigation.registerComponent('History', () => History)
+	Navigation.registerComponent('Notification', () => Notification)
+	Navigation.registerComponent('TopUp', () => TopUp)
+	Navigation.registerComponent('SendMoney', () => SendMoney)
+	Navigation.registerComponent('AntarLifesWallet', () => AntarLifesWallet)
+	Navigation.registerComponent('TransferBank', () => TransferBank)
+	Navigation.registerComponent('KirimKe', () => KirimKe)
+	Navigation.registerComponent('KonfirmasiTransfer', () => KonfirmasiTransfer)
+	Navigation.registerComponent('TransferSukses', () => TransferSukses)
+	Navigation.registerComponent('TransferGagal', () => TransferGagal)
+	Navigation.registerComponent('Akun', () => Akun)
+	Navigation.registerComponent('EditProfil', () => EditProfil)
+	Navigation.registerComponent('UbahNomorHandphone', () => UbahNomorHandphone)
+	Navigation.registerComponent('VerifikasiEmail', () => VerifikasiEmail)
+	Navigation.registerComponent('UbahAlamatEmail', () => UbahAlamatEmail)
+	Navigation.registerComponent('KodePromo', () => KodePromo)
+	Navigation.registerComponent('Upgrade', () => Upgrade)
+	Navigation.registerComponent('DataDiri', () => DataDiri)
+	Navigation.registerComponent('Hubungi', () => Hubungi)
+	Navigation.registerComponent('SemuaProduk', () => SemuaProduk)
+	Navigation.registerComponent('PLN', () => PLN)
+	Navigation.registerComponent('KonfirmasiPLN', () => KonfirmasiPLN)
+	Navigation.registerComponent('KonfirmasiPembayaran', () => KonfirmasiPembayaran)
+	Navigation.registerComponent('Overview', () => Overview)
+	Navigation.registerComponent('Penarikan', () => Penarikan)
+	Navigation.registerComponent('TarikTunai', () => TarikTunai)
+	Navigation.registerComponent('QRMaker', () => QRMaker)
+	Navigation.registerComponent('PembayaranTagihan', () => PembayaranTagihan)
+	Navigation.registerComponent('UploadFoto', () => UploadFoto)
+	Navigation.registerComponent('Pulsa', () => Pulsa)
+	Navigation.registerComponent('KonfirmasiPulsa', () => KonfirmasiPulsa)
+	Navigation.registerComponent('Telkom', () => Telkom)
+	Navigation.registerComponent('KonfirmasiTelkom', () => KonfirmasiTelkom)
+	Navigation.registerComponent('PDAM', () => PDAM)
+	Navigation.registerComponent('KonfirmasiPDAM', () => KonfirmasiPDAM)
+	Navigation.registerComponent('BPJS', () => BPJS)
+	Navigation.registerComponent('KonfirmasiBPJS', () => KonfirmasiBPJS)
+	Navigation.registerComponent('MultiFinance', () => MultiFinance)
+	Navigation.registerComponent('KonfirmasiMultiFinance', () => KonfirmasiMultiFinance)
+	Navigation.registerComponent('TVKabel', () => TVKabel)
+	Navigation.registerComponent('KonfirmasiTVKabel', () => KonfirmasiTVKabel)
+	Navigation.registerComponent('Game', () => Game)
+	Navigation.registerComponent('PickerList', () => PickerList)
+	Navigation.registerComponent('TransaksiSukses', () => TransaksiSukses)
+	Navigation.registerComponent('TransaksiGagal', () => TransaksiGagal)
+	Navigation.registerComponent('SecurityCodeBaru', () => SecurityCodeBaru)
+	Navigation.registerComponent('SyaratKetentuan', () => SyaratKetentuan)
+	Navigation.registerComponent('ScanQR', () => ScanQR)
+	Navigation.registerComponent('SecurityCodeAnda', () => SecurityCodeAnda)
+	Navigation.registerComponent('BuatSecurityCode', () => BuatSecurityCode)
+	Navigation.registerComponent('UlangSecurityCode', () => UlangSecurityCode)
+	Navigation.registerComponent('Bank', () => Bank)
+	Navigation.registerComponent('Saran', () => Saran)
+	Navigation.registerComponent('PromoDetail', () => PromoDetail)
+	Navigation.registerComponent('PembayaranMasuk', () => PembayaranMasuk)
+	Navigation.registerComponent('PembayaranSukses', () => PembayaranSukses)
+	Navigation.registerComponent('TarikTunaiDetail', () => TarikTunaiDetail)
+	Navigation.registerComponent('LihatTarikTunai', () => LihatTarikTunai)
+	Navigation.registerComponent('TerimaTarikTunai', () => TerimaTarikTunai)
+	Navigation.registerComponent('KonfirmasiTarikTunai', () => KonfirmasiTarikTunai)
+	Navigation.registerComponent('TarikTunaiSukses', () => TarikTunaiSukses)
+	Navigation.registerComponent('CairkanSaldo', () => CairkanSaldo)
+	Navigation.registerComponent('KonfirmasiCairkanSaldo', () => KonfirmasiCairkanSaldo)
+	Navigation.registerComponent('Tentang', () => Tentang)
+	Navigation.registerComponent('Kebijakan', () => Kebijakan)
+	Navigation.registerComponent('Informasi', () => Informasi)
+	Navigation.registerComponent('FAQ', () => FAQ)
+	Navigation.registerComponent('MediaPicker', () => MediaPicker)
+	Navigation.registerComponent('DatePicker', () => DatePicker)
+	Navigation.registerComponent('MerchantDetail', () => MerchantDetail)
+	Navigation.registerComponent('Camera', () => Camera)
+	Navigation.registerComponent('QRCode', () => QRCode)
+	Navigation.registerComponent('HistoryDetail', () => HistoryDetail)
+	Navigation.registerComponent('HistoryPointDetail', () => HistoryPointDetail)
+}
