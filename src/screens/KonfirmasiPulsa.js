@@ -77,7 +77,8 @@ export default class extends Component {
 
 			postXML('', xml, true, (resp) => {
 
-				Alert.alert("resp",JSON.stringify(resp))
+				// Alert.alert("resp",JSON.stringify(resp))
+				// Alert.alert("data",JSON.stringify(data))
 
 				if(resp.posh.resultcode[0] == '0000'){
 
@@ -95,6 +96,8 @@ export default class extends Component {
 				}else{
 					Alert.alert('Info', resp.posh.result[0])
 				}
+
+				
 			}, () => {
 				// let params = {
 				// 	command : 'ADVICE', 

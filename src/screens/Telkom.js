@@ -65,6 +65,9 @@ export default class extends Component {
 			var xml = builder.buildObject(params);
 
 			postXML('', xml, true, (resp) => {
+
+				// Alert.alert("resp",JSON.stringify(resp))
+
 				if(resp.posh.resultcode[0] == '0000'){
 					
 					let data = resp.posh

@@ -109,7 +109,7 @@ export default class extends Component {
 		let {data} = this.props.navigation.state.params
 
 		return (
-			<View style={{width:width-40, backgroundColor:'white', justifyContent: 'center'}}>		
+			<View style={{width:width-40, backgroundColor:'white', justifyContent: 'center', alignSelf: "center", marginTop: 38}}>		
 				<View style={{padding:20}}>
 					<View>
 						<Text style={{color:blue, fontWeight:'700', fontSize:20}}>Konfirmasi Cairkan Saldo</Text>

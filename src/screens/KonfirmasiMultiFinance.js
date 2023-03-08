@@ -128,7 +128,7 @@ export default class extends Component {
 	render() {
 		let {data} = this.props.navigation.state.params
 		return (
-			<View style={{width:width-40, backgroundColor:'white', justifyContent: 'center'}}>		
+			<View style={{width:width-40, backgroundColor:'white', justifyContent: 'center', alignSelf: "center", marginTop: 38}}>		
 				<ScrollView>
 					<View style={{padding:20}}>
 						<View>
